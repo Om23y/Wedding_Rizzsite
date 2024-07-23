@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+.heading-container{
+    height: 65vw;
+}
+
+.heading{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name-heading{
+    /* position: absolute; */
+    font-size: 5vw;
+    /* top: 35%;
+    left: 30%;
+    margin: auto; */
+}
+
+.date{
+    /* position: absolute; */
+    font-size: 3vw;
+    /* top: 90%;
+    left: 30%;
+    margin: auto; */
+}
+
+.main-photo{
+    display: flex;
+    max-width: 100%;
+}
