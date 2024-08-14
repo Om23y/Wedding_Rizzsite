@@ -4,15 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wedding Rizzsite</title>
-  <link rel="stylesheet" href="styles.css">
-
-
-
+  <link rel="stylesheet" href="styles/mainpage.css">
+  <link rel="stylesheet" href="styles/navigation.css">
 </head>
 <body>
-  
-  <img class="about-photo" src="assets/oioioi.jpeg">
+
+  <nav id="hamburger-nav">
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">RSVP & REGISTRY</a></li>
+            <li><a href="#who-we-are" onclick="toggleMenu()">HOME</a></li>
+            <li><a href="#team-section" onclick="toggleMenu()">THE WEDDING DAY</a></li>
+            <li><a href="weddingparty.html" onclick="toggleMenu()">ENTOURAGE</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">OUR STORY</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">TRAVEL AND ACCOMODATION</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">FAQS</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">GALLERY</a></li>
+        </div>
+
+    </div>
+    <ul class="nav-links">
+    </ul>
+</nav>
+
+
+  <!-- <img class="about-photo" src="assets/oioioi.jpeg"> -->
   
 
 </body>
+
+<script src="script.js"></script>
 </html>

@@ -6,7 +6,7 @@
 }
 
 .team-title h1{
-    font-size: 50px;
+    font-size: 4rem;
     color: black;
     text-align: center;
     position: relative;
@@ -17,6 +17,8 @@
 .bridesmaids-title, .groomsmen-title {
     text-align: center;
     font-size: 2rem;
+    color: white;
+    font-weight: 100;
 }
 
 .bridesmaids, .groomsmen {
@@ -34,6 +36,7 @@
 .bridesmaids-section, .groomsmen-section{
     width: 80%;
     margin: 10px auto;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -48,14 +51,14 @@
 
 
 .team-card {
-    /*background-color: rgb(241, 241, 241); */
+    /* background-color: rgb(241, 241, 241);
     border: solid;
     border-width: 2px;
     border-color: black;
     border-radius: 30px;
-    box-shadow: 0px 2px 5px rgba(0,0,0, 0.2);
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.2); */
     margin: 0px 10px;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
     transition: transform 0.6s ease;
     width: calc(25% - 10px);
@@ -63,23 +66,26 @@
 
 .team-card:hover{
     transform: translateY(-12px);
-    background-color: rgb(242, 236, 236);
+    /* background-color: rgb(242, 236, 236); */
 }
 
 .team-image img{
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
+    /* height: 130px;
+    width: 130px; */
+    width: 100%;
     object-fit: cover;
     margin-bottom: 5px;
 }
 
 .team-detail h3{
-    font-size: 2vh;
+    font-size: 1.5rem;
+    font-weight: 400;
     margin: 3px 0px;
+    color: whitesmoke;
 }
 
-.team-detail p{
-    color: grey;
-    font-size: 2vh;
+.team-detail {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
