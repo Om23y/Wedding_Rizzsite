@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header-photo {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1
+}
+
+.top-section-text {
+    z-index: 5;
+    position: relative;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.top-section-text h1{
+    font-size: 5rem;
+}
