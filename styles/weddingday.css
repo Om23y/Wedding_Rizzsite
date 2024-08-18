@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.top-section-container{
+    height: 56vw;
+}
+
 .header-photo {
     width: 100%;
     position: absolute;
@@ -17,9 +21,19 @@
     z-index: 5;
     position: relative;
     text-align: center;
-    margin-top: 500px;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .top-section-text h1{
-    font-size: 5rem;
+    font-size: 10vw;
+    color: white;
+    font-weight: 300;
+}
+
+.top-section-text h2{
+    font-size: 3vw;
+    font-weight: 100;
+    color: yellow;
 }
