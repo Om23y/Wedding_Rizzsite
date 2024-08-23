@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'The_Seasons';
-    src: url('assets/fonts/fontspring-demo-theseasons-reg-webfont.woff2') format('woff2'),
-         url('assets/fonts/fontspring-demo-theseasons-reg-webfont.woff') format('woff');
+    src: url('../assets/fonts/fontspring-demo-theseasons-reg-webfont.woff2') format('woff2'),
+         url('../assets/fonts/fontspring-demo-theseasons-reg-webfont.woff') format('woff');
 }
 
 .wedding-team{
@@ -26,7 +26,6 @@
     font-size: 2rem;
     color: white;
     font-weight: 100;
-    font-family: 'The_Seasons';
 }
 
 .bridesmaids, .groomsmen {
