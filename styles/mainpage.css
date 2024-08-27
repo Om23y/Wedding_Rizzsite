@@ -95,9 +95,10 @@ body {
     font-size: 6vw;
     font-weight: 400;
     text-align: center;
-    max-width: 80%;
+    max-width: 75%;
     color: rgb(255, 145, 77);
     line-height: 0.9;
+    letter-spacing: -0.06em;
 }
 
 .basic-info {
@@ -153,8 +154,30 @@ body {
 .landing-image {
     min-width: 0;
     width: 100%;
+    height: 30em;
+}
+
+.day-details {
+    margin: 0px 2em;
+}
+
+.day-details p, b{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.08em;
+    line-height: 1.5em;
+}
+
+.day-details p{
+    font-weight: 300;
 }
 
 
 
-
+.bible-quote {
+    text-align: center;
+    color: rgb(255, 102, 196);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10em;
+}
