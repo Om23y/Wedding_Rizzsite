@@ -114,3 +114,47 @@ body {
     font-weight: 500;
     width: 60%;
 }
+
+#more-info {
+    max-width: 100%;
+}
+
+.grid-container {
+    min-width: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+.RSVP-button {
+    text-align: center;
+    position: relative;
+}
+
+.RSVP-button a{
+    font-size: 8rem;
+    font-family: "Playfair Display", serif;
+    font-size: 600;
+    color: rgb(255, 102, 196);
+    font-weight: 700;
+    line-height: 0;
+    text-decoration: none;
+    /* border: 3px solid;
+    border-radius: 25px; */
+    transition: color 0.3s ease;
+}
+
+.RSVP-button a:hover{
+    color: rgb(243, 124, 197);
+}
+
+.landing-image {
+    min-width: 0;
+    width: 100%;
+}
+
+
+
+
